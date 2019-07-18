@@ -11,4 +11,7 @@ RUN apk update; apk add dbus; apk add cherrytree; apk add cherrytree; apk add ch
 COPY startapp.sh /startapp.sh
 
 # Set the name of the application.
-ENV APP_NAME="cherrytree"
+ENV APP_NAME="Cherrytree"
+ENV KEEP_APP_RUNNING="1"
+ENV DISPLAY_WIDTH="1440"
+ENV DISPLAY_HEIGHT="900"
