@@ -1,6 +1,6 @@
 # Pull base image.
 #FROM jlesage/baseimage-gui:debian-8
-FROM jlesage/baseimage-gui:alpine-3.8
+FROM jlesage/baseimage-gui:alpine-3.9
 
 COPY repositories /etc/apk/
 # Install xterm.
