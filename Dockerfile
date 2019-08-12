@@ -5,7 +5,7 @@ FROM jlesage/baseimage-gui:alpine-3.9
 COPY repositories /etc/apk/
 # Install xterm.
 #RUN apt-get -y update; apt-get -y install xvfb; apt-get install -y cherrytree 
-RUN apk update; apk add --no-cache dbus cherrytree p7zip
+RUN  apk add --no-cache dbus cherrytree p7zip
 
 # Copy the start script.
 COPY startapp.sh /startapp.sh
